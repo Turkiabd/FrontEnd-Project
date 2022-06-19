@@ -1,0 +1,59 @@
+.display-1 {
+    text-align: center;
+    margin-bottom: 0px;
+    
+}
+
+
+#p1{
+    font-size: 15px;
+}
+
+
+.img-fluid{
+    height: 600px;
+    width: 850px;
+    margin: 0px 100px 0px 288px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+   .carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+   }
+
+
+
+.container{
+    text-align: center;
+    margin-top: 5%;
+    font-family: EngFont,Open Sans;
+}
+
+
+.display-6 {
+    margin-bottom: 15px;
+    margin-left: 25px;
+    
+}
+
+
+.card{
+    margin-top: 100px;
+
+
+}
+ 
+#cartIcon{
+    position: relative;
+    top: 5px;
+    left: 95%;
+    
+
+}
+
+.list-group{
+    margin: 20px 10px 0px 25px;
+}

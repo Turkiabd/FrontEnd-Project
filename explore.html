@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planty</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- heading title n little message -->
+    <h1 class="display-1">
+      Planty
+      <p id="p1">plant your life</p>
+    </h1>
+
+    <h6 class="display-6">Hey there !</h6>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+  <!-- shopping cart -->
+  <svg id="cartIcon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+  </svg>
+
+
+
+
+
+
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="explore.html">explore</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">contact with us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+               
+
+
+
+
+
+
+
+
+    <!-- cards to display plants -->
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+        <div class="col">
+          <!-- card1 -->
+          <div class="card" style="width: 20rem;" id="item1">
+            <img src="images/Hplant1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">
+                Nearly Natural Golden Dieffenbachia Plant
+              </h5>
+              <p class="card-text">
+                A fountain of foliage accents a handsome planter in Nearly
+                Natural's artificial golden dieffenbachia plant to bring
+                soothing style to any setting.Some quick example text to build
+                on the card title and make up the bulk of the card's content.
+              </p>
+              <a id="btn" onclick="addToCart()" href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+        </div>
+
+        <script>
+
+       var btn = document.getElementById('btn');
+       var svg = document.getElementById('svg');
+
+       let count = 0;
+
+       function addToCart(){
+
+        count +=1;
+
+        document.getElementById('svg').innerHTML=count;
+        console.log(count);
+
+       }
+
+
+
+
+
+
+
+
+
+        </script>
+
+        <!-- card2 -->
+        <div class="col">
+          <div class="card" style="width: 20rem">
+            <img src="images/Hplant2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Teleflora Delightful Dieffenbachia</h5>
+              <p class="card-text">
+                Large, lovely leaves and a low-maintenance personality make the
+                dieffenbachia a popular houseplant in homes and offices. The
+                easy-to-care-for floor plant features colorful leaves in various
+                shades of green that freshen up any corner
+              </p>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+        </div>
+
+            <!-- card3 -->
+        <div class="col">
+            <div class="card" style="width: 20rem">
+              <img src="images/Hplant3.jpg" class="card-img-top" alt="..." style="margin-bottom: 80px;" />
+              <div class="card-body">
+                <h5 class="card-title">Ficus elastica Robusta</h5>
+                <p class="card-text">
+                  Owning a Rubber Plant is all about the retro-chic of broad, shiny leaves. 
+                  Ficus elastica Robusta is a modern variety that is very close to the original species in appearance, 
+                  but with leaves that are wider and more glossy.
+                </p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+            </div>
+          </div>
+
+
+
+          
+        </div>
+        <div class="col">
+
+
+    <!-- card4 -->
+    <div class="col">
+      <div class="card" style="width: 20rem">
+        <img src="images/Hplant4.jpg" class="card-img-top" alt="..." style="margin:0px 0px 80px 10px;" />
+        <div class="card-body">
+          <h5 class="card-title">Metallic Coloured Indoor Plant Pots</h5>
+          <p class="card-text">
+            Metallic Coloured Indoor Plant Pots designed to be adored. 
+            From weathered and antiqued verdigris hues to highly reflective, 
+            smooth, golden mirror glazes.
+          </p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+
+      
+    ></script>
+
+    <script src="index.js"></script>
+
+  </body>
+</html>

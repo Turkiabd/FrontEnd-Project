@@ -1,3 +1,3 @@
 # FrontEnd-Project
 
-https://turkiabd.github.io/FrontEnd-Prolect/
+https://turkiabd.github.io/FrontEnd-Project/
